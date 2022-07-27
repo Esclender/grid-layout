@@ -74,6 +74,7 @@ body{
 .main__food{
     display: grid;
     width: 100vw;
+    height: 100vh;
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr;
@@ -89,7 +90,6 @@ body{
 }
 
 
-
 .main__food img{
     width: 45vw;
     height: 100%;
@@ -97,6 +97,18 @@ body{
     
 }
 
+#today-menu{
+    height: 100vh;
+}
+
+.card h2{
+    font-size: 3rem;
+    color: #eee;
+}
+
+.card figure img{
+    width: 30rem ;
+}
 
 
 
