@@ -78,7 +78,7 @@ body{
     grid-auto-flow: row;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto 1fr 1fr;
-    padding: 2rem;
+    padding: 2rem 2rem 0;
     
 }
 
@@ -99,16 +99,43 @@ body{
 
 #today-menu{
     height: 100vh;
+    
 }
 
-.card h2{
+#today-menu h2{
     font-size: 3rem;
-    color: #eee;
+    padding: 1rem;
+    color: rgb(201, 210, 38);
+    background-color: #000;
+}
+
+.card{
+    
+    background: linear-gradient(70deg, #ae7e0f 60%, #e77212);
+    padding: 2rem;
+    margin: 0.8rem 2rem 0.8rem;
+    text-align: left;
+    font-size: 1.8rem;
+    font-weight: 700;
+
+    border-radius: 10px;
 }
 
 .card figure img{
-    width: 30rem ;
+    width: 25rem ;
+    border-radius: 8px;
 }
+
+.card .buy-button{
+    background-color: #1f1c1c;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    padding: 0.3rem;
+    color: rgb(168, 117, 23);
+}
+
+
 
 
 
