@@ -32,9 +32,11 @@ body{
 
 .header__hero{
     display: grid;
+    grid-template-rows: 14rem 5rem 3fr auto 1fr;
    height: 100%;
    backdrop-filter: blur(8px);
    color: #1f1c1c;
+   justify-items: center;
 }
 
 .header__hero h1{
@@ -51,17 +53,17 @@ body{
 
 .header__hero a{
     font-size: 2.5rem;
-    
+    width: 70%;
     color: rgb(168, 117, 23);
     background-color: #1f1c1c;
-    padding: 0.8rem;
+    padding: 1rem;
     margin: 0.5rem;
     border-radius: 8px;
 }
 
 .header__hero .icon img{
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 15rem;
     
 }
 
